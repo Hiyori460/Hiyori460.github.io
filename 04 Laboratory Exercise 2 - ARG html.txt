@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women with Baskets - Aninta Magsaysay-Ho</title>
+    <link rel="stylesheet" href="Ian.css">
+</head>
+<body>
+    <header>
+        <h1>Women with Baskets</h1>
+        <p>By Aninta Magsaysay-Ho</p>
+    </header>
+
+    <section class="gallery">
+        <div class="image-container">
+            <img src="4.jpg" alt="Women with Baskets Part 1">
+            <img src="3.jpg" alt="Women with Baskets Part 2">
+            <img src="1.jpg" alt="Women with Baskets Part 3">
+            <img src="6.jpg" alt="Women with Baskets Part 3">
+            <img src="2.jpg" alt="Women with Baskets Part 3">
+            <img src="5.jpg" alt="Women with Baskets Part 3">
+        </div>
+    </section>
+
+    <section class="description">
+        <h2>About the Artwork</h2>
+        <p>
+            Aninta Magsaysay-Ho was a renowned Filipino artist known for depicting rural women in daily life.
+            "Women with Baskets" is a masterpiece showcasing harmony, labor, and culture through unique brushstrokes.
+        </p>
+        <a href="https://leon-gallery.com/auctions/lot/The-Spectacular-Mid-Year-Auction-2021/22/55" target="_blank">
+            Learn More
+        </a>
+    </section>
+
+    <section class="video">
+        <h2>Watch Anita.mp4</h2>
+        <video controls>
+            <source src="Anita.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+</body>
+</html>

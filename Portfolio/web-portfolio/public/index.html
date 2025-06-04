@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Portfolio | Adrian P. Laurente</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="main.js" defer></script>
+  <script src="scroll-animations.js" defer></script>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <nav class="navbar">
+      <h1>Adrian P. Laurente</h1>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <h2>Welcome to My Portfolio</h2>
+    <p>Discover my work and skills as a web developer.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <img src="93230799_226808685423131_2960341882766360576_n.jpg" alt="Profile Picture" class="profile-img">
+    <h2>About Me</h2>
+    <p>Hi! I'm Adrian P. Laurente, a passionate web developer focused on creating beautiful and functional digital experiences.</p>
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Animation</li>
+      <li>3D Designer</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Project</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="Screenshot 2025-06-04 154908.png" alt="Project 1">
+        <h3>Portfolio Website</h3>
+        <p> This portfolio showcases my skills, experiences, and projects in a clear and organized way. It includes a brief introduction about myself and the projects I’ve worked on — highlighting both my technical and creative abilities.</p>
+      </div>
+      <!-- Additional project cards can be added here -->
+    </div>
+  </section>
+
+  <!-- Add this block directly under the Projects Section in your index.html -->
+
+<!-- Services/Offers Section -->
+<section id="offers" class="projects">
+  <h2>What I Offer</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Web Development</h3>
+      <p>Custom websites and web apps tailored to your needs using modern technologies.</p>
+    </div>
+    <div class="project-card">
+      <h3>UI/UX Design</h3>
+      <p>Modern, user-friendly interfaces and experiences for your digital products.</p>
+    </div>
+    <div class="project-card">
+      <h3>Website Maintenance</h3>
+      <p>Ongoing support and updates to keep your website running smoothly.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Adrian. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#"><img src="../images/social/github.svg" alt="GitHub"></a>
+      <a href="#"><img src="../images/social/linkedin.svg" alt="LinkedIn"></a>
+      <a href="#"><img src="../images/social/twitter.svg" alt="Twitter"></a>
+    </div>
+  </footer>
+</body>
+</html>

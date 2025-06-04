@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Ian.css">
+</head>
+<body>
+    <div class="border">
+        <div class="category top-bottom" id="group1">
+        <h2>Animals</h2>
+        <p>Mouse</p>
+        <p>Jaguar</p>
+        <p>Dog</p>
+        <p>Ape</p>
+    </div>
+    
+        <div class="category left-right" id="group2">
+        <h2>Months</h2>
+        <p>March</p>
+        <p>December</p>
+        <p>August</p>
+        <p>January</p>
+    </div>
+    
+        <div class="category top-bottom" id="group3">
+        <h2>Countries</h2>
+        <p>Denmark</p>
+        <p>Australia</p>
+        <p>Myanmar</p>
+        <p>Japan</p>
+    </div>
+    
+        <div class="category left-right" id="group4">
+        <h2>Foods</h2>
+        <p>Jelly</p>
+        <p>Almonds</p>
+        <p>Marshmallow</p>
+        <p>Dragon Fruit</p>
+    </div>
+</div>
+</body>
+</html>

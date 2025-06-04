@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Performance Task</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="PTscript.js"></script>
+  </head>
+  <body>
+    <p>Performance Task</p>
+  </body>
+</html>

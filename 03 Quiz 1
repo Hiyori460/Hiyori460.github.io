@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>El Filibusterismo Excerpt</title>
+    <style>
+        body {
+            font-family: "Georgia", "Times New Roman", serif;
+            background-color: #f3e5ab;
+        }
+        .content {
+            font-size: 18px; 
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <p><i>The death of Capitan Tiago and Basilio’s imprisonment were soon reported in the province...</i></p>
+        <p>Source: <a href="https://patientnumber23.proboards.com/thread/300/excerpts-el-filibusterismo-chapters-30">https://patientnumber23.proboards.com</a></p>
+    </div>
+</body>
+</html>

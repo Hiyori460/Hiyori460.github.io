@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>STI ADVERTISMENT SURVEY FORM</h1>
+    <form>
+      
+        <label for="Name">First Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="Contact Number">Last Name:</label><br>
+        <input type="text" id="Contact Number" name="number mo" required><br><br>
+        
+        <label for="Current School">Current School:</label><br>
+        <input type="text" id="Current School" name="School" required><br><br>
+        
+        <label for="datetime">Date:</label><br>
+        <input type="datetime-local" id="datetime" name="datetime" required><br><br>
+
+ <p>SHS Strands<br>
+    *Choose atleast 3desired strand* 
+ </p>
+ 
+        <input type="checkbox" id="SHS" name="SHS Strands" value="STEM">
+        <label for="SHS">STEM</label><br>
+        
+                <input type="checkbox" id="SHS" name="SHS Strands" value="ABM">
+        <label for="SHS">ABM</label><br>
+        
+                <input type="checkbox" id="SHS" name="SHS Strands" value="HUMMS">
+        <label for="SHS">HUMMS</label><br>
+        
+        
+                <input type="checkbox" id="SHS" name="SHS Strands" value="TOPER">
+        <label for="SHS">TOPER</label><br>
+        
+        
+                <input type="checkbox" id="SHS" name="SHS Strands" value="IT MAWD">
+        <label for="SHS">IT MAWD</label><br><br>
+        
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

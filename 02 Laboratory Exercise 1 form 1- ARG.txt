@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h1>STI Enrollment Form</h1>
+    <form>
+      
+        <label for="Name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="Contact Number">Contact Number:</label><br>
+        <input type="text" id="Contact Number" name="number mo" required><br>
+        
+ <p>Gender:</p>
+        <input type="radio" id="Gender" name="enrollment_type" value="Female" required>
+        <label for="Gender">Female</label><br>
+
+        <input type="radio" id="Gender" name="kasarian" value="Male">
+        <label for="Gender">Male</label><br>
+
+        <input type="radio" id="Gender" name="kasarian" value="Others">
+        <label for="Gender">Others</label><br><br>
+
+        <label for="Previuos School">Previous School:</label><br>
+        <input type="text" id="Previus School" name="School" required><br><br>
+
+        <label for="Course">Course:</label><br>
+        <input type="text" id="Course" name="level" required><br><br>
+
+        <label for="School">SY:</label><br>
+        <input type="text" id="School" name="SY" required><br><br>
+
+       
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

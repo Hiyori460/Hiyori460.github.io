@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple HTML page with a grid layout.">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="Ian.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <h1 style="text-align: center; color: #333; margin-top: 20px;">Welcome to My Web Page</h1>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>User Experience</h2>
+            <p>Focus on creating intuitive and user-friendly designs.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Content</h2>
+            <p>Deliver high-quality and engaging content for your audience.</p>
+        </div>
+        <div class="grid-item">
+            <h2>Grid Layout</h2>
+            <p>Utilize modern CSS grid techniques for responsive designs.</p>
+        </div>
+    </div>
+</body>
+</html>
+
